@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color: inherit;
+}
+.flex {
+	display: flex;
+	align-items: center;
+}
+main {
+	padding: 2rem;
+	font-family: 'Nunito Sans', sans-serif;
+	color: hsl(0, 1%, 26%);
+	display: grid;
+	grid-template-areas: "a" "b" "c" "f" "g" "d" "h" "e" "i";
+}
+section {
+	padding: .5rem 0;
+}
+.section-title {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+hr {
+	border: solid 1px hsl(0, 0%, 20%);
+	margin: .25rem 0 1rem;
+	width: 100%;
+}
+/* HEADER */
+.header {
+	grid-area: a;
+	text-transform: uppercase;
+	padding: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+.header h1 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	letter-spacing: 3px;
+	margin-bottom: .5rem;
+}
+.header h2 {
+	font-size: 1.2rem;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+/* DETAILS */
+.details {
+	grid-area: b;
+}
+.detail {
+	margin: 1rem 0;
+}
+.detail-title {
+	color: black;
+	text-transform: uppercase;
+	font-size: .85rem;
+	font-weight: 600;
+}
+/* LINKS */
+.links {
+	grid-area: c;
+}
+.link {
+	margin: .5rem;
+}
+/* SOFT SKILLS */
+.soft-skills {
+	grid-area: d;
+}
+.soft-skill {
+	margin: .75rem 0;
+}
+/* LANGUAGES */
+.languages {
+	grid-area: e;
+}
+.language {
+	margin: 1rem 0;
+}
+/* PROFILE */
+.profile {
+	grid-area: f;
+}
+.profile p {
+	font-size: 1.1rem;
+	max-width: 700px;
+	line-height: 1.6;
+}
+/* TECH SKILLS */
+.tech-skills {
+	grid-area: g;
+}
+.tech-title {
+	color: black;
+	font-size: 1rem;
+	font-weight: 600;
+}
+.tech-skill {
+	margin: 1rem 0;
+	font-size: 1.1rem;
+}
+/* EXPERIENCE */
+.experience {
+	grid-area: h;
+}
+.experience .job {
+	margin: 1.5rem 0;
+}
+.job-title {
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.job-company {
+	font-size: 1.1rem;
+	margin-left: .5rem;
+}
+.job-city {
+	font-style: italic;
+	margin: .25rem 0;
+}
+.job-dates {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+.job-details {
+	font-size: 1.1rem;
+}
+.experience ul {
+	list-style-type: circle;
+}
+.experience li {
+	max-width: 600px;
+	line-height: 1.6;
+}
+/* EDUCATION */
+.education {
+	grid-area: i;
+}
+.degree {
+	font-style: italic;
+	margin-top: .25rem;
+}
+@media screen and (min-width: 850px) {
+	main {
+		grid-template-areas: 
+		"a a a" 
+		"b f f" 
+		"c g g" 
+		"d g g" 
+		"d h h" 
+		"e h h" 
+		"i h h"
+		". h h";
+		padding: 0;
+	}
+	.header {
+		background-color: white;
+		color: hsl(0, 1%, 26%);
+		border: solid hsl(0, 0%, 35%);
+		padding: 4rem;
+		width: 700px;
+		margin: 2rem auto 4rem auto;
+	}
+	.header h1 {
+		font-size: 3rem;
+		letter-spacing: 5px;
+	}
+	.header h2 {
+		font-size: 1.5rem;
+		letter-spacing: 3px;
+	}
+	hr {
+		width: 75%;
+	}
+	.profile,
+	.tech-skills,
+	.experience {
+		padding: 0 3rem 2rem 2rem;
+	}
+	.details,
+	.links,
+	.soft-skills,
+	.languages,
+	.education {
+		background-color: hsl(0, 0%, 97%);
+		padding: 0rem 2rem 2rem 4rem;
+		margin-right: 2rem;
+	}
+	.details {
+		position: relative;
+	}
+	.gray {
+		background-color: hsl(0, 0%, 97%);
+		position: absolute;
+		transform: translateY(-100%);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		z-index: -1;
+	}
+	.languages {
+		position: relative;
+	}
+	.education {
+		padding-bottom: 4rem;
+	}
+}
