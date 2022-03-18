@@ -81,7 +81,7 @@ export const languages = [
 ];
 export const profile = [
     {
-        profile: "I have been working for over ten years in customer-facing roles which has led me to be extremely client-focused and people-oriented, an outlook that I am excited to bring into my transition into tech. A year of self-learning front-end development, and nine weeks of boot-camp training in back-end technologies has given me a solid understanding of software development, that I am eager to enhance with more practical experience. I am truly passionate about creating positive user experiences through building responsive, accessible, and innovative applications."
+        profile: "Ten years in customer-facing roles has led me to be extremely client-focused and people-oriented, an outlook that I am excited to bring into my transition into tech. Self-learning front-end development for a year and a half, and nine weeks of boot-camp training in back-end technologies has given me a solid understanding of software development, that I am eager to enhance with more practical experience. I am truly passionate about creating positive user experiences through building responsive, accessible, and innovative applications."
     }
 ];
 export const techSkills = [
