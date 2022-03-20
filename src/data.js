@@ -122,7 +122,7 @@ export const experience = [
         details: [
             "Attended nine weeks of full-time learning with live instructors.",
             "Modules covered throughout this period included: Agile and project management, Databases and Cloud Fundamentals, Intermediate Java, API Development (Spring Boot), Automated Testing (JUnit)",
-            "Implemented understanding of course material through building pracitcal projects that encapsulated concepts from all core training."
+            "Implemented understanding of course material through building practical projects that encapsulated concepts from all core training."
         ]
     },
     {
@@ -133,7 +133,7 @@ export const experience = [
         start: "Mar 2020",
         finish: "Present",
         details: [
-            "Displayed excellent customer service skills and a committment to customer satisfaction.",
+            "Displayed excellent customer service skills and a commitment to customer satisfaction.",
             "Discussed promotions, products, and anything pertaining to better and more satisfactory service for the customer.",
             "Remained informed and up to date on the current stock and offerings."
         ]
@@ -167,7 +167,7 @@ export const experience = [
             "Provided guests with drink suggestions and knowledge about drink recipes.",
             "Built positive rapport with guests.",
             "Monitored bar inventory and made notes for needed supplies when necessary.",
-            "Memorized orders and aimed to provide fast and quality service to all visitors."
+            "Memorised orders and aimed to provide fast and quality service to all visitors."
         ]
     },
 ];
