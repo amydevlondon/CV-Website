@@ -121,8 +121,11 @@ export const experience = [
         finish: "Feb 2022",
         details: [
             "Attended nine weeks of full-time learning with live instructors.",
-            "Modules covered throughout this period included: Agile and project management, Databases and Cloud Fundamentals, Intermediate Java, API Development (Spring Boot), Automated Testing (JUnit)",
-            "Implemented understanding of course material through building practical projects that encapsulated concepts from all core training."
+            "Modules covered throughout this period included: Agile and project management, Databases and Cloud Fundamentals, Intermediate Java, API Development (Spring Boot), Automated Testing (JUnit).",
+            "Implemented understanding of the course material through building practical projects that encapsulated concepts from all core training.",
+            "Created a Spring Boot API with full create, read, update, and delete functionality; connected to a MySQL database; capable of handling HTTP requests, and tested with Postman.",
+            "Produced project management boards with full expansion on user stories, acceptance criteria and tasks needed to complete projects.",
+            "Generated risk assessments which outline issues and risks faced during project time-frames."
         ]
     },
     {
@@ -148,10 +151,7 @@ export const experience = [
         details: [
             "Offered solutions to customers with general mobile or network queries.",
             "Determined customers' individual needs by engaging in great conversations, and matched products and services to  meet those needs.",
-            "Solved queries for customer quickly and efficiently.",
             "Identified and maximized sales opportunities, and increased customer retention rates.",
-            "Trained new sales professionals and provided coaching as needed to maintain company sales success.",
-            "Worked to ensure a neat and attractive sales environment, and assisted in the setup of visual displays."
         ]
     },
     {
@@ -162,8 +162,6 @@ export const experience = [
         start: "Mar 2015",
         finish: "Nov 2018",
         details: [
-            "Maintained strong work relationships with all hotel departments.",
-            "Contacted appropriate hotel departments to resolve guest issues or concerns.",
             "Provided guests with drink suggestions and knowledge about drink recipes.",
             "Built positive rapport with guests.",
             "Monitored bar inventory and made notes for needed supplies when necessary.",
