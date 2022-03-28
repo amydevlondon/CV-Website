@@ -125,7 +125,7 @@ export const experience = [
             "Implemented understanding of the course material through building practical projects that encapsulated concepts from all core training.",
             "Created a Spring Boot API with full create, read, update, and delete functionality; connected to a MySQL database; capable of handling HTTP requests, and tested with Postman.",
             "Produced project management boards with full expansion on user stories, acceptance criteria and tasks needed to complete projects.",
-            "Generated risk assessments which outline issues and risks faced during project time-frames."
+            "Generated risk assessments which outlined issues and risks faced during project time-frames."
         ]
     },
     {
